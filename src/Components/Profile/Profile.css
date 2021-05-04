@@ -1,0 +1,61 @@
+.Profile {
+  background-color: white;
+  border-radius: 6px ;
+  width :100%;
+}
+
+
+.Profile_name {
+  line-height:  18px;
+  padding: 19px;
+}
+
+.Profile_name .Name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 450;
+}
+
+.Profile_name .Title {
+  font-size:13px;
+  color: #777;
+}
+
+.Profile_image {
+  margin : 3px;
+}
+
+.Profile_image img {
+  width : 100%;
+  
+}
+
+.Profile_info {
+  top: 0;
+  left: 0;
+  margin: -40px 8px 30px;
+}
+
+.Profile_info .Timeline .Timeline_content {
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+.Profile_info .Timeline .Timeline_text {
+  font-size: 12.1px;
+  color: #787878;
+  font-weight: 400;
+}
+
+.Profile_info .Timeline .Timeline_text >span {
+  color: black;
+  font-weight: 450;
+}
+
+.Profile .Button_container {
+  width : 100% !important;
+  display: inline-flex !important;
+  justify-content: center !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px;
+}

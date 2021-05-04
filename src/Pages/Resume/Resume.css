@@ -1,0 +1,111 @@
+.aboutme_text {
+  color: darkslategray !important;
+  font-size: smaller  !important;
+  line-height: 22px !important;
+  white-space:pre-line !important;
+}
+
+.Resume_timeline .Timeline_content .Timeline_title {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  margin-block-start: -4px !important;
+}
+
+.Resume_timeline .Timeline_content .Timeline_date {
+  color : darkslategray;
+  font-size :11px;
+}
+
+.Resume_timeline .Timeline_content .Timeline_field {
+  font-weight:405;
+  font-size: 14px;
+}
+
+.Resume_timeline .Timeline_content .Timeline_description {
+  color : gray;
+  font-size: small;
+  margin-top : 6px;
+  white-space:pre-line !important;
+}
+
+.Resume_timeline .Timeline_content .Timeline_course {
+  color: darkslategray;
+  font-size : small;
+  
+}
+.Resume_timeline .Timeline_content .Timeline_aggregate {
+  color : gray;
+  margin-top:6px;
+  font-size: small;
+}
+
+
+/* Services */
+
+.service {
+  height:100%;
+  text-align:center;
+  border-radius: 8px;
+  padding:20px;
+  box-shadow: 0px 0px 48px 0px rgba(4,6,4,0.08) !important;
+  min-height:186px;
+  height:100%;
+}
+
+.service .service_title {
+  font-size:16px !important;
+  font-weight:500 !important;
+  line-height: 35px !important;
+  text-align: center !important;
+  
+}
+
+.service .service_description {
+  color : #989898;
+  border-color : var(--main-color) !important;
+  margin-right:5px !important;
+  text-align: center !important;
+  font-size :small !important;
+}
+
+.service_icon > .MuiSvgIcon-root {
+  font-size: 18px !important;
+  margin-left:0 !important;
+  font-weight: 300 !important;
+  color:darkslategray !important;
+}
+
+/* End of Services */
+
+/* Skills */
+
+.skill {
+  border-radius:8px;
+  padding:20px;
+  box-shadow: 0px 0px 48px 0px rgba(4,6,4,0.08) !important;
+  min-height:186px;
+  height:100%;
+}
+
+.skill .skill_title {
+  text-align: center;
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: 500;
+
+}
+
+.skill .skill_description {
+  display:flex;
+  align-items: center;
+  color : #989898;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.skill .skill_description .timeline_dot {
+  border-color:  var(--main-color);
+  padding :2px;
+  margin-right: 5px;;
+}
+/* End of Skills */
