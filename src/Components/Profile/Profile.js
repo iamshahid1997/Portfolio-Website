@@ -46,7 +46,7 @@ const profile = () => {
             <CustomTimelineItem title = 'Mobile' text = {ResumeData.number} />
           </CustomTimeline>
           <div className = "Button_container">
-            <a className = "Custom_button" href = {Resume} target = "_blank"><CustomButton icon = {<GetAppRoundedIcon />} text = 'Download Cv'/></a>
+            <a className = "Custom_button" href = {Resume} target = "_blank" rel = "noreferrer"><CustomButton icon = {<GetAppRoundedIcon />} text = 'Download Cv'/></a>
           </div>
         </div>  
       </div>

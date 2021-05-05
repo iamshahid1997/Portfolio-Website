@@ -16,7 +16,9 @@ import CodeIcon from '@material-ui/icons/Code';
 import StorageIcon from '@material-ui/icons/Storage';
 import InsertChartIcon from '@material-ui/icons/InsertChart';
 
-export default {
+
+// eslint-disable-next-line
+export default  {
   name: 'Shahid Hassan Ansari',
   title: 'React Js Developer / Data Scientist',
 
@@ -243,4 +245,5 @@ export default {
     },
   ]
 }
+
  

@@ -13,7 +13,7 @@ const Socials = () => {
   return (
     <div className = "Header_right">
     {Object.keys(ResumeData.socials).map(key => (
-      <a href ={ResumeData.socials[key].link} target = '_blank'>{ResumeData.socials[key].icon}</a>
+      <a href ={ResumeData.socials[key].link} target = '_blank' rel = "noreferrer">{ResumeData.socials[key].icon}</a>
     ))}
 </div>
   );
