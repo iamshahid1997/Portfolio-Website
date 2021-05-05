@@ -104,6 +104,8 @@ export default  {
       description : [
         "React JS",
         "Redux",
+        "React Hooks",
+        "React Routing",
         "Javascript ES6",
         "Bootstrap",
         "Material UI",
@@ -153,7 +155,7 @@ export default  {
       description  : 'A portfolio website to showcase my skills and projects.',
       links :[
        {
-        link :'' , icon : <GitHubIcon/>
+        link :'https://shahid-ansari-porfolio.netlify.app/' , icon : <GitHubIcon/>
        } 
       ] 
     },
