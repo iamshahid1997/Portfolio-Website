@@ -155,7 +155,7 @@ export default  {
       description  : 'A portfolio website to showcase my skills and projects.',
       links :[
        {
-        link :'https://shahid-ansari-portfolio.netlify.app/' , icon : <GitHubIcon/>
+        link :'https://github.com/iamshahid1997/Portfolio-Website' , icon : <GitHubIcon/>
        } 
       ] 
     },
