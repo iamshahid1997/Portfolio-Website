@@ -2,7 +2,7 @@ import React from 'react';
 import './Profile.css';
 
 import ResumeData from '../../utils/ResumeData';
-import Resume from '../../assests/pdf/RESUME SHAHID.pdf';
+import Resume from '../../assests/pdf/RESUME.pdf';
 
 import CustomTimeline,{ CustomTimelineSeperator } from '../Timeline/Timeline';
 import DisplayPic from '../../assests/images/DisplayPic.jpg';

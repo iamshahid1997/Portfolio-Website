@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioProject from '../assests/images/Portfolio Project.png';
-import Ecommerce from '../assests/images/ecommerce.png';
+import food from '../assests/images/food.jpg';
 import WorldCup from '../assests/images/fifacup2018.jpg';
 import Recommender from '../assests/images/Recommender.jpg';
 import Email from '../assests/images/email.jpg';
@@ -162,12 +162,12 @@ export default  {
     {
       id: "12",
       tag: 'React',
-      img : Ecommerce,
-      title : "E-Commerce Website",
-      description  : 'An E-Commerce website which allows to shop various products similar to Amazon.',
+      img : food,
+      title : "Food Ordering App",
+      description  : 'The Food Ordering App that helps the business owners showcase their menu under different categories. Customers just need to select, enter the quantity and place order. This app gives an opportunity for restaurant businesses to skyrocket their business.',
       links :[
         {
-         link :'' , icon : <GitHubIcon/>
+         link :'https://github.com/iamshahid1997/Food-Ordering-App' , icon : <GitHubIcon/>
         } 
        ] 
     },
